@@ -38,7 +38,7 @@ body{
 }
 
 .progress{
-    background-color: #3498db;
+    background-color: #f25042;
     position: absolute;
     top: 50%;
     left: 0;
@@ -46,7 +46,7 @@ body{
     width: 0%;
     transform: translateY(-50%);
     z-index: -1;
-    transition: .4s ease;
+    transition: .6s ease;
 }
 
 .btn{
@@ -81,7 +81,7 @@ body{
     justify-content: center;
     align-items: center;
     border: solid 3px #b8c1ec;
-    transition: .4s ease;
+    transition: .6s ease;
 }
 .circle.active{
     border-color: #271c19;
