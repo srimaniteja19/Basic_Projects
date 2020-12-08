@@ -6,12 +6,12 @@ body{
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     margin: 0;
-    background: #0f0e17;
+    background: #98acf8;
     color: #2d334a;
 }
 
 .container{
-    background: #fffffe;
+    background: #da9ff9;
     transform-origin: top left;
     transition: transform 0.5s linear;
     width: 100vw;
@@ -21,7 +21,7 @@ body{
 
 .container.show-nav{
     transform: rotate(-20deg);
-    border-left: 10px solid #f9bc60;
+    border-left: 10px solid #b088f9;
 }
 .circle-container{
     position: fixed;
@@ -29,13 +29,13 @@ body{
     left: -100px;
 }
 .circle{
-    background: #ffd803;
+    background: #bedcfa;
     height: 200px;
     width: 200px;
     border-radius: 50%;
     position: relative;
     transition: transform 0.5s linear;
-    border: 5px solid #abd1c6;
+    border: 5px solid #98acf8;
 }
 .container.show-nav .circle{
     transform: rotate(-70deg);
@@ -51,6 +51,7 @@ body{
     font-size: 26px;
     color: #272343;
     outline: none;
+    cursor: pointer;
 }
 .circle:focus{
     outline: none;
@@ -108,7 +109,7 @@ nav ul li + li + li{
     margin: 0;
 }
 .content small{
-    color: #ff8ba7;
+    color:  #594a4e;
     margin: 0;
     font-style: bolder;
 }
