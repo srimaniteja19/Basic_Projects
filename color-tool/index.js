@@ -3,15 +3,18 @@ let inputColor = document.querySelector('.input_color')
 let alteredColor = document.querySelector('.altered_color')
 let slider = document.querySelector('#slider')
 let label_slider = document.querySelector('.slider_label')
+let colorName = document.querySelector(".color_name")
+let lightColorName = document.querySelector(".light_color")
 input.addEventListener('change',function(e){
      let color = e.target.value;
     //  console.log(color)
      if(color==""){
          return false
-     }else if(color.length === 7 || color.length===4){
+     }else if((color.length === 7 || color.length===4) && color.includes("#")){
         inputColor.style.backgroundColor = color
         alteredColor.style.backgroundColor = color
         // e.target.value = ""
+        colorName.textContent = color
      }
      alterColor(color)
 })

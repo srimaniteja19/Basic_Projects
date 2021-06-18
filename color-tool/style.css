@@ -42,7 +42,7 @@ input[type="text"]{
     background-color: #bae8e8;
 }
 input[type="text"]::placeholder{
-    color: #272343;
+    color: lightcyan;
 }
 .box{
     display: flex;
