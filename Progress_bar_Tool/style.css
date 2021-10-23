@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.5rem;
+  overscroll-behavior-y: none;
+  font-family: monospace;
+}
+
+section {
+  margin: 150px;
+  margin-top: 60px;
+  padding: 30px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+p {
+  margin-top: 50px;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8px;
+  width: 0%;
+  background-color: hotpink;
+  transition: width 0.3s ease;
+}
