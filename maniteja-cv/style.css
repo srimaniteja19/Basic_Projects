@@ -1,0 +1,119 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.content-one {
+  width: 30%;
+  padding: 2em;
+  background-color: lightcyan;
+}
+.content-one .details-one {
+  margin-bottom: 3.8em;
+  text-transform: uppercase;
+}
+.content-one .details-one h1 {
+  text-align: center;
+  color: royalblue;
+}
+.content-one .details-one p {
+  text-align: center;
+}
+.content-one .details-two {
+  padding-left: 3.3em;
+  border-bottom: 1px solid gray;
+  margin-bottom: 3em;
+}
+.content-one .details-two a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.content-one .details-two p:nth-child(3) {
+  margin-bottom: 3em;
+}
+.content-one .details-three {
+  padding-left: 2em;
+}
+.content-one .details-four {
+  padding-left: 2em;
+}
+.content-one .details-four .languages,
+.content-one .details-four .interests {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.content-two {
+  width: 65%;
+  background-color: royalblue;
+  padding: 2em;
+  color: white;
+}
+.content-two .programming {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-bottom: 3em;
+}
+
+.content-two .programming ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.content-two .skills-one h2 {
+  margin-bottom: 0;
+}
+.content-two .skills-one h3 {
+  color: hotpink;
+}
+.content-two .skills-two .education h4 {
+  color: hotpink;
+  font-weight: 600;
+}
+
+.content-two .skills-two .education .college,
+.content-two .skills-two .education .certificates,
+.content-two .skills-two .education .school {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.content-two .skills-two .education .college .one,
+.content-two .skills-two .education .certificates .two,
+.content-two .skills-two .education .school .three {
+  width: 70%;
+}
+.content-two .skills-two .education .college > p,
+.content-two .skills-two .education .certificates > p,
+.content-two .skills-two .education .school > p {
+  width: 20%;
+}
+
+.content-two .skills-two h2 {
+  margin-bottom: 0;
+}
+
+.projects p {
+  width: 80%;
+}
