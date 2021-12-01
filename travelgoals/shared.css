@@ -10,8 +10,16 @@ header {
 
 div h3 {
   font-size: 24px;
+  transition: all 0.2s ease-in;
 }
-
+div h3 a {
+  text-decoration: none;
+  color: inherit;
+}
+div h3:hover {
+  color: royalblue;
+  transform: scale(1.1);
+}
 nav {
   padding: 0px 50px;
   display: flex;
@@ -27,4 +35,36 @@ nav ul {
 nav ul li {
   font-size: 20px;
   margin-left: 30px;
+  padding: 5px;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+  border-radius: 5px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+nav ul li:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  padding: 20px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li img {
+  width: 50px;
 }
