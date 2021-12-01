@@ -68,3 +68,9 @@ footer ul {
 footer ul li img {
   width: 50px;
 }
+
+@media (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+}
