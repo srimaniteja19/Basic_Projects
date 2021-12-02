@@ -20,12 +20,12 @@ main {
   gap: 10px;
   background-color: white;
   border-radius: 5px;
+  overflow: hidden;
 }
 .content .place img {
   width: 50%;
   height: 250px;
   object-fit: cover;
-  border-radius: 5px 0 0px 5px;
 }
 .content .place .inner-content h2 {
   font-size: 25px;
